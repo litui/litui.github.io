@@ -1,0 +1,32 @@
+{
+	"template_dir": "templates", 
+	"content_dir": "contents",
+	"output_dir": "../",
+
+	"server": { 
+		"port": 9009
+	},
+
+	"bundles": {
+		"/css/all.css": [
+			"/css/normalize.css",
+			"/css/main.css",
+			"/css/site.less"
+		]	
+	},
+	"plugins": {
+		"content_handler": "punch-blog-content-handler"
+	},
+	"blog": {
+		"posts_dir": "posts",
+		"post_format": "markdown",
+		"post_url": "/{year}/{month}/{date}/{title}",
+		"archive_urls": {
+			"all": "/archive",
+			"year": "/{year}",
+			"year_month": "/{year}/{month}",
+			"year_month_date": "/{year}/{month}/{date}",
+			"tag": "/tag/{tag}"
+		}
+	}
+}
