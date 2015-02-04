@@ -1,0 +1,35 @@
+
+/*********************************************************************************/
+/* Custom UI                                                                     */
+/*********************************************************************************/
+
+article pre {
+	overflow: auto;
+	font-family: "Inconsolata", monospace;
+}
+
+article code {
+	padding: 0;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(0,0,0,0.04);
+	border-radius: 3px;
+}
+
+article code:before,
+article code:after {
+	letter-spacing: -0.2em;
+	content: "\00a0";
+}
+
+article pre>code {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	word-break: normal;
+	white-space: pre;
+	background: transparent;
+	border: 0;
+}

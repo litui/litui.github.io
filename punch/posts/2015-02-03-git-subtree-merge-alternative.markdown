@@ -18,3 +18,5 @@ This involved use of [git-read-tree](https://www.kernel.org/pub/software/scm/git
     $ git read-tree --prefix=lib\ -u svn-branch:subproject\lib
 
 Note the `:subproject\lib` after the git-svn branch name. The files in that directory within the git-svn branch will be read to the prefix `lib\` in the local index/working directory. The `-u` will ensure the files in the destination index are updated immediately in the working directory.  This will fail if files already exist in the working directory.  The assumption then is that we can use this approach to populate the tree and there should be a merge option that properly attends to the mapping on the svn branch.  Unfortunately, I could not locate one.
+
+This post is to be continued when I'm less tired...
