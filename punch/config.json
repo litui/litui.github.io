@@ -8,14 +8,18 @@
 	},
 
 	"bundles": {
-		"/css/all.css": [
-			"/css/normalize.css",
-			"/css/main.css",
-			"/css/site.less"
-		]	
+		"/js/all.js": [
+			"/js/jquery.min.js",
+			"/js/skel.min.js",
+			"/js/skel-layers.min.js",
+			"/js/init.js"
+		]
 	},
 	"plugins": {
-		"content_handler": "punch-blog-content-handler"
+		"content_handler": "punch-blog-content-handler",
+		"helpers": {
+			"index_helper": "./helpers/index_helper.js"
+		}
 	},
 	"blog": {
 		"posts_dir": "posts",

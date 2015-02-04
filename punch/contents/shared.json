@@ -1,6 +1,10 @@
 {
-	"site-title": "Welcome!",
+	"site-title": "Litui.Net",
 	"footer-text": "Built with <a href=\"http://laktek.github.com/punch\">Punch</a>",
 	"navbar": [
-	]
+		{"href": "/about", "label": "About Me"},
+		{"href": "/resume", "label": "Resume"}
+	],
+	"site-creator": "Aria Burrell",
+	"current-year": "2015"
 }
