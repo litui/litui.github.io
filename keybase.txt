@@ -4,7 +4,7 @@ https://keybase.io/aria
 
 I hereby claim:
 
-  * I am an admin of http://litui.net
+  * I am an admin of http://www.litui.net
   * I am aria (https://keybase.io/aria) on keybase.
   * I have a public key with fingerprint 7C05 8948 D40E D560 97F4  EC11 2A4F 2648 AB96 6149
 
@@ -16,45 +16,53 @@ To claim this, I am signing this object:
             "fingerprint": "7c058948d40ed56097f4ec112a4f2648ab966149",
             "host": "keybase.io",
             "key_id": "2a4f2648ab966149",
+            "kid": "01015719f4899e36781e9c761c65b4a703775c3a4a411bd869099b9cabca046e49eb0a",
             "uid": "fa4f620c7ac63665892a2d229f13e000",
             "username": "aria"
         },
+        "revoke": {
+            "sig_ids": [
+                "0fd5c4901bfabcc3d65789fbd1f8d0925c1b7568dc48f155d7415513affacb490f"
+            ]
+        },
         "service": {
-            "hostname": "litui.net",
+            "hostname": "www.litui.net",
             "protocol": "http:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1401300798,
+    "ctime": 1423065318,
     "expire_in": 157680000,
-    "prev": "c64c8d59041eb500840168e3ced0d60f91a2859d94362055ee1bb0b100ceb924",
-    "seqno": 15,
+    "prev": "dcca16fcec9bdd69b7979fbd075cc49fb6217a0087d5e8160702f92fb68d575c",
+    "seqno": 21,
     "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the PGP signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v0.1.17
+Version: Keybase OpenPGP v2.0.1
 Comment: https://keybase.io/crypto
 
-yMHoAnicbVFvSBRpGN/NNltty0o4Loi8IZRq0XdmZ2ZnVk4CP2jW5YqicCnb/HlX
-X1xnxpnZNduTSy0/3AejU7xDKzopuUsNA6kMQVmkEkHRwiSh65SUUCviCPTEfEe8
-b316eX9/n4dnxBVnS7Afz0/N7W4TTtnHhpfCtsKmtKwoIapyLeGLEpVw6wkipRzq
-mo4Uk/ARXgkwHE9zMg2gzLCA9wZpKJEkJdBBiqU5QeRZlqR5wk1UqIblwDGiYMB0
-pGIMfwJIxuhX9OEtIogJlgKSV5BYD8viMkqgZIrig6QHAgAsoQF1RaiCWC3oSCDq
-3ARGIkjCSHSrdpsNITOM0hVoYpOmq6YqqSEMV5im5rNcZq1myWqgGNgOCIhIkfHC
-2BCBuoFUhfCRWCmZyEokaUB6APDynJuAFzSkwwCyFIyX5fBswKqBERwpsbTEyQwP
-aBKKDAAcNrIc9EhQBjILgjwpUBzDyzztwcsyDISkKAKRBECCIk/RuN+A1YpqZeM5
-hXKcaaByRTDDOiTqYsOlO232BNsuxw7rZrYEZ9L/l/x0LH6DuELyy/WPln9LKv6e
-6mj4q2Tu8L9345Onr4Xig9Ud2cmno9G1jfmC3wfkhdIc6VB+0miDIz12va1ybc83
-P4sLRGZ7T1H/ryM/ClFnhmv+bWyyv8WZ0lrQaPjXXwxmNe5v/uf1RLc8NCbOpP15
-dRzVD6++OuO69MCV+P5i0WrK9PlnD7tanny3cmT3zbia1vG9fuj5IfzOfs95tiYw
-Y+TdH5rNLtOO9nycvDP1uOT2RJ8WWMyZS6z6uzirk+492NudO3DO/9OtstGKWLP2
-8mnX81+WTn4ZXL/R5Eg90Zc3FYog+9jlb990fvZnfHCwpZn7DixOzrb+51+Zdf+R
-Xdje2442AU7ODy0=
-=irgu
+yMJhAnicbVJriFVFHL+7a6u7bRkJVoKoQ61Yy2XmnDOva1JpryVrNezD7t66zPN6
+uOs913PO3nURH0HgBhWBtpGmSbD2wg9W+EAok1jIVZbdHkqIUGDhBoUbiRU95lzs
+W19mmP/8/r/Hf+bzW1py7U339nQ+/sGo6G6a+GzvYG7D9IM/bAUy0sOgsBVUTGOz
+YbVs4locVlNQAFRBzHjAdACNxgRyagOjEPJEYD0SMCE5ISjgoAtsjJKsw9FIkZh8
+GLmaO5RC7ar/g680LiCCCFPEbcA4Nz6hDBmuKEGKYBkICn1KsfJFIAKEpGaEQ84l
+V0IqAQNiAm4kFI5usEFnnQ7xoKJCEZ8Q590TnvY8bpFvIIQZMDFxVWwyDi3iUIBt
+XSA29ahisvRJWHaGE1DoB9BqrAIOkbROTPmaYMq4lRpZpiH3sEKSYsK0CphFGGsa
+uBX5wlqhpGu04FnH7dTqoWqQZxO6oTw0NJQfCNPBMF81qTNVi6M0UtGAu9qYprVC
+5iodrjWgRpZukJRkWNXufVxD3cRJGFVBATmkSsOMFQWeDwn2EesCZkstjE0pzBCY
+Euayw0zG1B2lVkogYpVRXGpNuKScZsmgG7WLbCXxEBUQMqqxYYhACj3LPVdnGjsM
+yGJtrkag4CHnU5Qdp5tcVaSDsQHbTp8qzsk1tedab2rOvliuve22/z7enpm5vzeR
+JXfvOLLYvhTv/P6PKfvq7p7k/sMzp2dWF8bHr+zbfvWTTSumHl0zfXLFN0s72zqS
+99748OFdW/ac/+pE38fdH40+8+WOb6/PKZ4tHpl86q9i75IFF79o2b925TtL8Z2r
+Wtarq+uWXW57vsSLLfa3S/lKrfu1yrVP13aO3dPDjy3vP1AfGfl17nOzQ+9e+GU8
+PPFYuX/f18XbT/141+bZvdOTx4eT3p3l94d/Hn3kyctnpo7Wdp27cnDx9r4D4/94
+7MUXxt5sfvu+tyb6/9y9KB54/fq13qfv6GEL005Nn0Ad0aU18yYfaL71zPxlD313
+sC8/tu6nQ1HrxZOzN7+CVy8sr1zUWiMdf788cmhi1b8ddD38
+=1Pls
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
