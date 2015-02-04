@@ -71,7 +71,7 @@
 		
 	#sidebar
 	{
-		width: auto;
-		background: none;
+		width: 100%;
+		/* background: none; */
 		padding: 30px 20px 30px 20px;
 	}

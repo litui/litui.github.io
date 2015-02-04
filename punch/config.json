@@ -18,6 +18,8 @@
 	"plugins": {
 		"content_handler": "punch-blog-content-handler",
 		"helpers": {
+			"formatted_date_helper": "./helpers/formatted_date_helper.js",
+			"archive_helper": "./helpers/archive_helper.js",
 			"index_helper": "./helpers/index_helper.js"
 		}
 	},
