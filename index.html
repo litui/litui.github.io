@@ -58,6 +58,7 @@
 <p>This involved use of <a href="https://www.kernel.org/pub/software/scm/git/docs/git-read-tree.html">git-read-tree</a> to map paths on the git-svn branch to paths on the index/working directory as follows.</p>
 <pre><code>$ git read-tree --prefix=lib\ -u svn-branch:subproject\lib
 </code></pre><p>Note the <code>:subproject\lib</code> after the git-svn branch name. The files in that directory within the git-svn branch will be read to the prefix <code>lib\</code> in the local index/working directory. The <code>-u</code> will ensure the files in the destination index are updated immediately in the working directory.  This will fail if files already exist in the working directory.  The assumption then is that we can use this approach to populate the tree and there should be a merge option that properly attends to the mapping on the svn branch.  Unfortunately, I could not locate one.</p>
+<p>This post is to be continued when I&#39;m less tired...</p>
 
 		</div>
 	</article>
