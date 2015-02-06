@@ -9,11 +9,11 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.litui.net" # the base hostname & protocol for your site
 twitter_username: litui
 github_username:  litui
+keep_files: ["robots.txt", "keybase.txt"]
+exclude: ["punch", "CNAME"]
+timezone: "America/Edmonton"
+paginate: 3
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
-
-exclude: ["punch", "robots.txt", "keybase.txt", "CNAME"]
-keep_files: ["punch", "robots.txt", "keybase.txt", "CNAME"]
-timezone: "America/Edmonton"
