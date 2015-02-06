@@ -1,195 +1,27 @@
-<!DOCTYPE html>
-<!--
-	Striped by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-				<title>Litui</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="/js/all-1423041047000.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="/css/skel.css" />
-			<link rel="stylesheet" href="/css/style.css" />
-			<link rel="stylesheet" href="/css/style-desktop.css" />
-			<link rel="stylesheet" href="/css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<!--
-		Note: Set the body element's class to "left-sidebar" to position the sidebar on the left.
-		Set it to "right-sidebar" to, you guessed it, position it on the right.
-	-->
-	<body class="left-sidebar">
-		<!-- Wrapper -->
-			<div id="wrapper">
+---
+layout: default
+---
+{% for post in paginator.posts %}
+  {% include post.html %}
+{% endfor %}
 
-				<!-- Content -->
-					<div id="content">
-						<div class="inner">
-	<article class="box post post-excerpt">
-		<header>
-			<h2><a href="&#x2F;2015&#x2F;02&#x2F;03&#x2F;git-subtree-merge-alternative">Git Subtree Merge Alternatives</a></h2>
-			<p></p>
-		</header>
-		<div class="info">
-			<span class="date"><span class="month">Feb<span>uary</span></span>  <span class="day">3</span><span class="year">, 2015</span></span>
-			<!--
-				Note: You can change the number of list items in "stats" to whatever you want.
-			-->
-<!--  			<ul class="stats">
-				<li><a href="#" class="icon fa-comment">16</a></li>
-				<li><a href="#" class="icon fa-heart">32</a></li>
- 				<li><a href="#" class="icon fa-twitter">64</a></li>
-				<li><a href="#" class="icon fa-facebook">128</a></li>
-			</ul> -->
-<!-- 			<ul class="stats">
-					<li><a href="#" class="icon fa-heart">git</a></li>
-					<li><a href="#" class="icon fa-heart">merge</a></li>
-			</ul> -->
-		</div>
-		<div class="markdown-body">
-			<p>Recently for work I&#39;ve had the need to pull data from a Subversion repository for use in a project whose code is stored in Git.  It seemed obvious to use <a href="https://www.kernel.org/pub/software/scm/git/docs/git-svn.html">git-svn</a> to retrieve my data but there was a catch: the data in my svn repo was stored in a different path structure from the data in my git branch of choice.  If it were a case of only one or two paths needing to be relocated, setting the svn path to the subpath and having multiple configured git-svn repos might be the answer, but for several subpaths on a particularly large repo this could prove incredibly inefficient.</p>
-<p>I learned quickly that <a href="https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt">git-subtree</a> and the <a href="http://git-scm.com/book/en/v1/Git-Tools-Subtree-Merging">subtree merge strategy</a> were not actually the same things and that use of git-subtree with svn branches in the same repo wouldn&#39;t fly.  I&#39;d have to play with the subtree merge strategy.</p>
-<p>This involved use of <a href="https://www.kernel.org/pub/software/scm/git/docs/git-read-tree.html">git-read-tree</a> to map paths on the git-svn branch to paths on the index/working directory as follows.</p>
-<pre><code>$ git read-tree --prefix=lib\ -u svn-branch:subproject\lib
-</code></pre><p>Note the <code>:subproject\lib</code> after the git-svn branch name. The files in that directory within the git-svn branch will be read to the prefix <code>lib\</code> in the local index/working directory. The <code>-u</code> will ensure the files in the destination index are updated immediately in the working directory.  This will fail if files already exist in the working directory.  The assumption then is that we can use this approach to populate the tree and there should be a merge option that properly attends to the mapping on the svn branch.  Unfortunately, I could not locate one.</p>
-<p>This post is to be continued when I&#39;m less tired...</p>
-
-		</div>
-	</article>
-						</div>
-					</div>
-
-<!-- Sidebar -->
-<div id="sidebar">
-
-<!-- Logo -->
-	<h1 id="logo"><a href="/">Litui</a></h1>
-
-<!-- Nav -->
-	<nav id="nav">
-
-		<ul>
-			<li class="current"><a href="/about">About Me</a></li>
-			<li class="current"><a href="/resume">Resume</a></li>
-		</ul>
-	</nav>
-
-<!-- Search -->
-<!-- 	<section class="box search">
-		<form method="post" action="#">
-			<input type="text" class="text" name="search" placeholder="Search" />
-		</form>
-	</section> -->
-
-<!-- Text -->
-<!-- 	<section class="box text-style1">
-		<div class="inner">
-			<p>
-				<strong>Striped:</strong> A free and fully responsive HTML5 site
-				template designed by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>
-			</p>
-		</div>
-	</section> -->
-
-<!-- Recent Posts -->
-	<section class="box recent-posts">
-		<header>
-			<h2>Recent Posts</h2>
-		</header>
-		<ul>
-			<li><a href="&#x2F;2014&#x2F;08&#x2F;15&#x2F;add-progress-continued">ADHD Progress Continued</a></li>
-			<li><a href="&#x2F;2014&#x2F;08&#x2F;12&#x2F;add-and-me">ADD and Me</a></li>
-		</ul>
-	</section>
-
-<!-- Recent Comments -->
-<!-- 	<section class="box recent-comments">
-		<header>
-			<h2>Recent Comments</h2>
-		</header>
-		<ul>
-			<li>case on <a href="#">Lorem ipsum dolor</a></li>
-			<li>molly on <a href="#">Sed dolore magna</a></li>
-			<li>case on <a href="#">Sed dolore magna</a></li>
-		</ul>
-	</section> -->
-
-<!-- Calendar -->
-<!-- 	<section class="box calendar">
-		<div class="inner">
-			<table>
-				<caption>July 2014</caption>
-				<thead>
-					<tr>
-						<th scope="col" title="Monday">M</th>
-						<th scope="col" title="Tuesday">T</th>
-						<th scope="col" title="Wednesday">W</th>
-						<th scope="col" title="Thursday">T</th>
-						<th scope="col" title="Friday">F</th>
-						<th scope="col" title="Saturday">S</th>
-						<th scope="col" title="Sunday">S</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td colspan="4" class="pad"><span>&nbsp;</span></td>
-						<td><span>1</span></td>
-						<td><span>2</span></td>
-						<td><span>3</span></td>
-					</tr>
-					<tr>
-						<td><span>4</span></td>
-						<td><span>5</span></td>
-						<td><a href="#">6</a></td>
-						<td><span>7</span></td>
-						<td><span>8</span></td>
-						<td><span>9</span></td>
-						<td><a href="#">10</a></td>
-					</tr>
-					<tr>
-						<td><span>11</span></td>
-						<td><span>12</span></td>
-						<td><span>13</span></td>
-						<td class="today"><a href="#">14</a></td>
-						<td><span>15</span></td>
-						<td><span>16</span></td>
-						<td><span>17</span></td>
-					</tr>
-					<tr>
-						<td><span>18</span></td>
-						<td><span>19</span></td>
-						<td><span>20</span></td>
-						<td><span>21</span></td>
-						<td><span>22</span></td>
-						<td><a href="#">23</a></td>
-						<td><span>24</span></td>
-					</tr>
-					<tr>
-						<td><a href="#">25</a></td>
-						<td><span>26</span></td>
-						<td><span>27</span></td>
-						<td><span>28</span></td>
-						<td class="pad" colspan="3"><span>&nbsp;</span></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</section> -->
-
-<!-- Copyright -->
-	<ul id="copyright">
-		<li>&copy; Aria Burrell, 2015.</li>
-		<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-	</ul>
-
+<!-- Pagination -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="button previous">Previous Page</a>
+  {% endif %}
+  <div class="pages">
+    {% if paginator.page != 1 %}
+      <a href="{{ site.baseurl }}/index.html">1</a>
+    {% endif %}
+    {% if paginator.previous_page > 1 %}<span>&hellip;</span>{% endif %}
+    <a href="#" class="active">{{ paginator.page }}</a>
+    {% if paginator.next_page and paginator.next_page < paginator.total_pages | minus:1 %}<span>&hellip;</span>{% endif %}
+    {% if paginator.page != paginator.total_pages %}
+      <a href="">{{ paginator.total_pages }}</a>
+    {% endif %}
+  </div>
+  {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="button next">Next Page</a>
+  {% endif %}
 </div>
-			</div>
-
-	</body>
-</html>

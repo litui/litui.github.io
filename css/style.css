@@ -302,7 +302,7 @@
 		.button
 		{
 			cursor: pointer;
-			background-color: #c94663;
+			background-color: #887BAF;
 			background-image: url('images/bg01.png');
 			border-radius: 0.4em;
 			text-align: center;
@@ -336,7 +336,7 @@
 			input[type="reset"]:hover,
 			.button:hover
 			{
-				background-color: #d95673;
+				background-color: #887BAF;
 			}
 			
 			input[type="button"]:active,
@@ -344,7 +344,7 @@
 			input[type="reset"]:active,
 			.button:active
 			{
-				background-color: #b93653;
+				background-color: #625192;
 			}
 		
 			input[type="button"].alt,
@@ -438,7 +438,7 @@
 			
 				.pagination .pages a:hover
 				{
-					background-color: #dadada;
+					background-color: #e8e8e8;
 				}
 
 				.pagination .pages a.active
