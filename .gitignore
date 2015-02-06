@@ -1,2 +1,4 @@
-punch/node_modules
-CNAME.html
+_site
+.sass-cache
+Gemfile.lock
+
