@@ -934,3 +934,9 @@
 	{
 		background-color: #4B688B url('images/bg01.png');
 	}
+
+img.cc-banner {
+	position: relative;
+	text-align: center;
+	width: 50%;
+}

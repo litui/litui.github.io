@@ -39,7 +39,7 @@
       <h2>Recent Posts</h2>
     </header>
     <ul>
-      {% for post in site.posts limit:1 %}
+      {% for post in site.posts limit:6 %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
@@ -121,7 +121,8 @@
 
 <!-- Copyright -->
   <ul id="copyright">
-    <li>&copy; {{site.data.meta.author}}, {{ site.time | date: '%Y' }}.</li>
+    <li><a href="http://creativecommons.org/licenses/by/2.5/ca/"><img src="/css/images/by.png" class="cc-banner" /></a></li>
+    <li>{{site.data.meta.author}}, {{ site.time | date: '%Y' }}.</li>
     <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
   </ul>
 
