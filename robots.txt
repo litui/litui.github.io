@@ -1,3 +1,5 @@
 User-agent: *
 Disallow: /punch/
 
+User-agent: ia_archiver
+Disallow: /

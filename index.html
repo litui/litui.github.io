@@ -6,22 +6,24 @@ layout: default
 {% endfor %}
 
 <!-- Pagination -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="button previous">Previous Page</a>
-  {% endif %}
-  <div class="pages">
-    {% if paginator.page != 1 %}
-      <a href="{{ site.baseurl }}/index.html">1</a>
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="button previous">Previous Page</a>
     {% endif %}
-    {% if paginator.previous_page > 1 %}<span>&hellip;</span>{% endif %}
-    <a href="#" class="active">{{ paginator.page }}</a>
-    {% if paginator.next_page and paginator.next_page < paginator.total_pages | minus:1 %}<span>&hellip;</span>{% endif %}
-    {% if paginator.page != paginator.total_pages %}
-      <a href="">{{ paginator.total_pages }}</a>
+    <div class="pages">
+      {% if paginator.page != 1 %}
+        <a href="{{ site.baseurl }}/index.html">1</a>
+      {% endif %}
+      {% if paginator.previous_page > 1 %}<span>&hellip;</span>{% endif %}
+      <a href="#" class="active">{{ paginator.page }}</a>
+      {% if paginator.next_page and paginator.next_page < paginator.total_pages | minus:1 %}<span>&hellip;</span>{% endif %}
+      {% if paginator.page != paginator.total_pages %}
+        <a href="">{{ paginator.total_pages }}</a>
+      {% endif %}
+    </div>
+    {% if paginator.next_page %}
+      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="button next">Next Page</a>
     {% endif %}
   </div>
-  {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="button next">Next Page</a>
-  {% endif %}
-</div>
+{% endif %}
