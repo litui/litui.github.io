@@ -23,16 +23,6 @@
     </form>
   </section> -->
 
-<!-- Text -->
-<!--  <section class="box text-style1">
-    <div class="inner">
-      <p>
-        <strong>Striped:</strong> A free and fully responsive HTML5 site
-        template designed by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>
-      </p>
-    </div>
-  </section> -->
-
 <!-- Recent Posts -->
   <section class="box recent-posts">
     <header>
@@ -118,6 +108,16 @@
       </table>
     </div>
   </section> -->
+
+  <section class="box text-style1">
+    <div class="inner">
+      <ul>
+        {% for link in site.data.meta.accounts %}
+        <li><i class="fa {{link['icon']}}"></i><a href="{{link.uri}}" alt="{{link.site}}: {{link.user}}">{{link.user}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
 
 <!-- Copyright -->
   <ul id="copyright">

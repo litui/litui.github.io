@@ -1,1 +1,18 @@
 author: Aria Burrell
+accounts:
+  - site: Keybase
+    user: aria
+    uri: https://keybase.io/aria
+    icon: fa-key
+  - site: Twitter
+    user: litui
+    uri: https://twitter.com/litui
+    icon: fa-twitter
+  - site: LinkedIn
+    user: Aria Burrell
+    uri: https://ca.linkedin.com/in/ariaburrell/
+    icon: fa-linkedin
+  - site: Github
+    user: litui
+    uri: https://github.com/litui
+    icon: fa-github
