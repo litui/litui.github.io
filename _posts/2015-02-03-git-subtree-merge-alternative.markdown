@@ -19,4 +19,14 @@ This involved use of [git-read-tree](https://www.kernel.org/pub/software/scm/git
 
 Note the `:subproject\lib` after the git-svn branch name. The files in that directory within the git-svn branch will be read to the prefix `lib\` in the local index/working directory. The `-u` will ensure the files in the destination index are updated immediately in the working directory.  This will fail if files already exist in the working directory.  The assumption then is that we can use this approach to populate the tree and there should be a merge option that properly attends to the mapping on the svn branch.  Unfortunately, I could not locate one.
 
-This post is to be continued when I'm less tired...
+The merge strategy recommended in all places appears to be the subtree merge strategy (`merge -s subtree`). This is insufficient. While it supports a prefix option (`-X subtree=...`) to prevent git from having to guess at the subtree path, it does not allow specification of a source path within the source branch!  Executing a subtree merge in this way results in an enormous mess and none of the desired mapping to prefixes.
+
+Eventually, I found a method that works but it's certainly not pretty, efficient, or error-proof.  If one knows the directory structure will be in place _for sure_, and one filters out volatile actions like deletes as necessary, one can produce diffs of the source branch path against the prefixed path in the working directory, then apply the diffs to the directory with `git apply`.  My exmple is as follows:
+
+    $ git diff-tree -r -p --diff-filter=ACMRTU HEAD:lib\ svn-branch:subproject\lib | git apply --index --whitespace=nowarn --directory=lib\
+
+This works for subdirectories.  For single files, the following works:
+
+    $ git diff -p --raw svn-branch:subproject\lib\onenecessaryfile.py -- lib\onenecessaryfile.py | git apply --index --whitespace=nowarn --reverse
+
+There might be a better approach than the above, but I haven't found it yet.
