@@ -204,3 +204,9 @@
 			height: 0.5em;
 			margin: 0 0 2em 0;
 		}
+
+.image.half
+{
+	display: block;
+	width: 100%;
+}
