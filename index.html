@@ -9,7 +9,7 @@ layout: default
 {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="button previous">Previous Page</a>
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="button previous">Newer</a>
     {% endif %}
     <div class="pages">
       {% if paginator.page != 1 %}
@@ -23,7 +23,7 @@ layout: default
       {% endif %}
     </div>
     {% if paginator.next_page %}
-      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="button next">Next Page</a>
+      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="button next">Older</a>
     {% endif %}
   </div>
 {% endif %}
