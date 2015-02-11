@@ -573,6 +573,25 @@
 						font-weight: 700;
 						line-height: 1em;
 					}
+
+					.box.post .info .stats div {
+						margin: 0;
+						padding: 0;
+					}
+
+					.box.post .info .stats .twitter-share-button {
+						margin-bottom: 5px;
+						vertical-align: bottom;
+					}
+
+					.box.post .info .stats div.fb_iframe_widget {
+						margin-bottom: 5px;
+						vertical-align: bottom;
+					}
+
+					.box.post .info .stats div.fb_iframe_widget span {
+						margin: 0px 0px 0px 0px;
+					}
 			
 			.box.recent-posts,
 			.box.recent-comments
