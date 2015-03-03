@@ -1,0 +1,100 @@
+---
+layout: post
+title: A Tale of Two Disorders
+subtitle: At the behest of an anonymous 9th grade teacher
+published: true
+tags:
+- ⚧
+- transgender
+- gender dysphoria
+- ADD
+- ADHD
+- ADHD-PI
+type: post
+status: publish
+---
+A week ago I received a message on Reddit from a local 9th grade school teacher asking if I would be willing to write a short paper on mental illness:
+
+> I read [your post](https://www.reddit.com/r/Calgary/comments/2wq4ad/mental_health/coth5tg "Permalink to reddit comment by litui in /r/calgary thread on mental health") in the [/r/calgary thread on mental health](https://www.reddit.com/r/Calgary/comments/2wq4ad/mental_health/) and I thought you spoke well about a bunch of the issues/stigma surrounding mental health. I teach high school here in calgary and am actually in the middle of a unit on mental health. My grade 9s are learning about mental illness in an attempt to increase understanding and decrease stigma. I'd love for them to have the opportunity to hear about specific mental illnesses but unfortunately there isn't too much set up in the way of this. I was wondering if maybe you might be interested in helping out? I was sort of thinking about doing this in two parts:
+>
+> 1. A story from the person with the mental illness - this would be up to you to write out. It could be as long or as short as you like (or are willing to write) and I could read it to the kids. It could be about anything you want - your story and your experience or your understanding of the mental illness itself.
+> 2. A Q+A. After reading out your story I would ask the kids to create questions specifically for you. If you're willing to answer them then I can relay those answers back to them.
+> 
+> ...
+
+While time and health have not been kind this past week, I've finally found a moment tonight to write.  The write-up follows.
+
+---
+
+### I --- On Stigma
+
+> The phenomenon whereby an individual with an attribute which is deeply discredited by his/her society is rejected as a result of the attribute. Stigma is a process by which the reaction of others spoils normal identity.  - Erving Goffman[^goffman]
+
+At 33 years old, it's only in the past year that I've come to terms with the fact that I have suffered significantly from mental illness in my lifetime. I attribute the long time it has taken me to come to arrive at this conclusion with the difficulty in shedding internalized social stigma.
+
+Stigma starts early. As a child and then teenager who was ostracized, bullied, and unable to relate to my peers, my foremost desire was to feel and be seen as *normal*. I *knew* I was not normal, though the secret formula to become normal eluded me, try as I might to find it. While I took my inability to fit in personally, I did understand on some level that at least some of the time I was singled out for *seeming* different rather than *actually being* different. Kids I knew who had similar interests to me, or were similarly quick to show emotion would turn on me to avoid being similarly attacked by peers. Lacking as I thought I was in normalcy, I settled for the next best thing; doing my utmost to avoid being noticed. The quieter I was, the more plain and boring I seemed, perhaps the less attention my apparent strangeness would draw.
+
+The main problem with this approach was that regardless of how I acted, I was still the same person inside. By fighting so hard against who I was and how I felt, I began to internalize society's stigma against that which is different, and I built a wall inside my head to hide those most worrisome parts of me from the world. I never forgot these parts of me were there and while it got easier to pretend they didn't exist, I was always troubled about the possibility of being found out. I didn't always even know why I was so worried, but I thought I couldn't possible be accepted or appreciated if I allowed it to be seen.
+
+The mental issues that I thought to be personality quirks still existed and now I was working extra hard to not only deal with these issues, but to pretend to the world I didn't have any issues. I was very diligent in this aspect of my quest for normalcy but hadn't realized that to put on an act and mask my suffering was, unfortunately, the most *normal* thing in the world. Everybody at some point in their lives will put on this act. It's self-defence in a world we perceive as hostile. But, if so many of us are playing a part to appear *normal*, what is *normal* anyway? Does the pretend reality where *normal* people are all the same and nobody is suffering really exist?
+
+We have all probably heard "fake it 'til you make it" in reference to feeling depressed, having social anxiety, or suffering in other ways. Shamefully, I've said this to others regarding their depression because I was under the delusion that my own "faking it" was successful. On the surface it would seem like good advice, and it may even be part of the solution in some cases, but what it advocates on its own is a problematic attitude of disregarding your feelings and putting on an act. The problem for myself and I would venture most others is that the underlying cause doesn't go away. While acting as though everything is alright may temporarily offer some distraction, allow one to be productive, and help one ride out the storm, if used as a long term solution it can lead our minds to employ defense mechanisms[^repressiondenial] that in turn can further impact our physical well-being and mental health.
+
+### II --- Mental Health
+
+Having relied on my own defence mechanisms of denial, repression, rationalization, sublimation, I never gave myself the time to think about what I might be running from or hiding from the rest of the world. When disordered behaviour invaded my life I would always downplay it or write it off to identity quirks or undesirable and shameful parts of who I was. This has always inevitably led me to bouts of low self-esteem and poor decision-making.
+
+I was never able to fully hide from those aspects of myself I boxed away. Thoughts would always surface when I least wanted or expected it, and eventually I was forced to dig deep and confront the things I had been running from. 
+
+#### Gender Dysphoria
+
+> DSM-5 aims to avoid stigma and ensure clinical care for individuals who see and feel themselves to be a different gender than their assigned gender. It replaces the diagnostic name "gender identity disorder" with "gender dysphoria," as well as makes other important clarifications in the criteria. It is important to note that gender nonconformity is not in itself a mental disorder. The critical element of gender dysphoria is the presence of clinically significant distress associated with the condition.[^dsm5gid]
+
+I was assigned male at birth, lived as male all of my childhood and adulthood, and I had little conscious awareness that I was dealing with gender dysphoria. I had never heard of gender dysphoria and only had the vaguest idea of what being transgender meant. The biggest thing I thought I had been hiding all this time was my bisexuality. I had assumed since becoming aware of my sexual orientation in my early teen years that all the gender-related feelings I had felt over my lifetime were related to my sexuality, and I had felt a great deal shame on account of them.  I had conflated sexuality and gender in confusing ways my entire life.
+
+Given the views I grew up around, this isn't surprising. Even on TV when I was growing up, gay characters were a rarity and still largely portrayed as effeminate stereotypes. Gay was equivalent to flamboyant as far as mainstream culture was concerned, and bisexual was barely visible at all. I was only really aware of bisexuality due to my early access to bulletin boards and the internet. I did the only thing that seemed reasonable at the time: I locked that part of me away without having deeply explored it and hoped I could live a good life pretending to be a heterosexual man.
+
+I internalized a lot of transphobic stigma over my life without really realizing it. Movies like Ace Ventura: Pet Detective and comedies where "that woman is really a man" served as the punch-line reinforced the status of trans people as a target. Growing up I didn't understand being transgender as a distinct concept from crossdressing/transvestitism, and I never viewed myself as a crossdresser. As far as I was from realizing I was transgender, all this stigma would also have to be overcome.
+
+After coming out as bisexual at age 30, I started to peel back the layers of my self-denial. I explored expression in ways that seem silly to me now but I hadn't previously allowed myself to explore (simple things like wearing the colour purple). Still, something wasn't making sense and I began to be more troubled by the lack of answers. I kept at it, slowly peeling back the layers, immersing myself more in LGBTQ community and culture, reading more about the history of the LGBT movement, and becoming more adventurous in my self-expression.
+
+The turning point for me was when I decided to attend the local "gender bender" (halfway to Pride party/fundraiser) event in a dress, wearing a wig, made up, and sporting a coat of nail polish. This was the first time I had ever fully dressed in women's clothing and it ended up being the first time I felt the full, unimpeded force of my gender dysphoria. 
+
+The feeling of gender dysphoria is not quite the same for everyone, and is not necessarily triggered by the exact same things. For me I had managed to spend most of my life in denial with gender dysphoria maintaining a low background hum. It caused me general discomfort with masculinity and recurring intrigue with the hypothetical of what it would have been like to have been "born a woman", but gender dysphoria hadn't yet caused me significant distress. Now, for the first time I was indulging in what I truly wanted and my gender dysphoria made itself agonizingly clear that it would no longer let me fight it.
+
+I still didn't know what gender dysphoria was and I didn't realize at the time that's what I had felt, I only knew I was in distress and taking steps toward feminine gender expression felt like a positive direction. I learned a great deal about being transgender and transitioned over that year through identification as genderqueer, androgyne, trans feminine, and eventually (after a few sessions of therapy to break my denial) as a woman. Over this duration I changed my expression gradually. I started with nail polish, added daily makeup, got my ears pierced, and started buying women's clothing toward the end of the year.
+
+At age 32, at the beginning of 2014, I changed my legal name, and officially changed gender at my workplace. I started hormone therapy shortly after.  After breaking my denial, realizing myself to be a woman, and socially transitioning, gender dysphoria has been minimal and in fact I now feel a *euphoria* about myself that I have never felt before.
+
+Everything isn't perfect, and life can be hard as a transgender woman, but I can't now imagine being anyone but me.
+
+#### ADHD-PI
+
+The second of my disorders to be formally diagnosed was *ADHD-PI* (Attention Deficit-Hyperactivity Disorder, Primarily Inattentive)[^adhd-pi], known historically as *ADD* (Attention Deficit Disorder).
+
+Ever since I first heard about ADD in my junior high or high school years, the thought had occurred that I might have it. Unfortunately, such a suggestion was never taken seriously either by me or the adults in my life, and I was never diagnosed or treated. As a disorder ADHD has been considered a joke by many and even today ADHD is commonly thought to be over-diagnosed in children and adolescents. Doctors have been accused of over-prescribing ADHD medication and claims have been made that some teachers are using ADHD as a way to sedate unruly children.
+
+I can't account for all these claims, but I do know that I am one of many adults who slipped through the cracks for diagnosis in both childhood and adolescence leaving me with extreme difficulty functioning normally at home, in society, in post-secondary school, and in the working world. Only in recent years has adult ADHD been investigated seriously[^adult adhd]. It turns out that many children with ADHD do not simply grow out of it, but as adults continue to experience symptoms. If not diagnosed in childhood this can leave adults like myself struggling for answers.
+
+A combination of social stigma and a lack of awareness were contributing factors preventing me from being diagnosed at an earlier age. I often wonder if my life would have gone differently if I'd been diagnosed and treated in my childhood or teen years. In adulthood I've had constant issues with disorganization, inability to maintain interest, lack of motivation (executive function), inability to multitask, and poor follow-through.
+
+That last point touches on a particularly sore point in my history: I'm a University drop-out, not for lack of skill or intelligence (I received a 3.92 GPA in my first year), but an undiagnosed disability that prevented me from being able to maintain focus on a long term goal. Throughout my school years and adulthood, I frequently felt like I was letting myself down. I would commit to something, fail to deliver, feel guilty about failing to deliver, and things would continue in that pattern without me being able to correct it.
+
+I have now been formally diagnosed and am on ADHD medication. With treatment I am now able to work far more effectively than ever before.
+
+### References
+
+<!-- Definitely some redundant references in here if you're scouring the source. =) 
+     I am a woman of great ambition when it comes to my writing. -->
+
+[^dsm5gid]: DSM-V Gender Dysphoria Fact Sheet. (2013). Retrieved March 3, 2015, from [link](http://www.dsm5.org/documents/gender%20dysphoria%20fact%20sheet.pdf)
+[^dsm6print]: DSM-II (6th Printing Change) (1973). Retrieved March 3, 2015, from [link](http://dsm.psychiatryonline.org/doi/abs/10.1176/appi.books.9780890420362.dsm-ii-6thprintingchange)
+[^adult adhd]: Dryden-Edwards, R. (2014). ADHD in adults. Retrieved March 3, 2015, from [link](http://www.emedicinehealth.com/adhd_in_adults/article_em.htm#adhd_in_adults_overview)
+[^wakefield]: Wakefield, J. C. (1992). The concept of mental disorder: on the boundary between biological facts and social values. *American Psychologist*, 47(3), 373.
+[^wakefield2]: Wakefield, J. C. (2007). The concept of mental disorder: diagnostic implications of the harmful dysfunction analysis. *World Psychiatry*, 6(3), 149–156. Retrieved from [link](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2174594/)
+[^njenga]: Njenga, F. (2007). The concept of mental disorder: an African perspective. *World Psychiatry*, 6(3), 166–167. Retrieved from [link](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2174593/)
+[^goffman]: Goffman, E. (1963). Stigma: Notes on the Management of Spoiled Identity. Prentice-Hall. ISBN 0-671-62244-7.
+[^stigma]: Johnstone, M.-J. (2001). Stigma, social justice and the rights of the mentally ill: challenging the status quo. *Australian and New Zealand Journal of Mental Health Nursing*, 10, 200-2009. [link](http://www.researchgate.net/publication/11651972_Stigma_social_justice_and_the_rights_of_the_mentally_ill_challenging_the_status_quo)
+[^repressiondenial]: McLeod, S. A. (2009). Defense Mechanisms. Retrieved from [link](http://www.simplypsychology.org/defense-mechanisms.html)
+[^adhd-pi]: ADHD Predominantly Inattentive Type (WWK8). (2004). Retrieved March 3, 2015, from [link](http://www.help4adhd.org/about/what/wwk8).
+[^maturation lag]: Shaw, P. (2008). Brain Maturity May Lag in Children with ADHD. Retrieved March 3, 2015, from [link](http://www2.nami.org/Template.cfm?Section=ADHD&Template=/ContentManagement/ContentDisplay.cfm&ContentID=106828).
