@@ -1,17 +1,17 @@
-author: Aria Burrell
+author: Aria Ehren
 accounts:
-  - site: Keybase
-    user: aria
-    uri: https://keybase.io/aria
-    icon: fa-key
+  - site: LinkedIn
+    user: Aria Ehren
+    uri: https://ca.linkedin.com/in/ariaehren/
+    icon: fa-linkedin
   - site: Twitter
     user: litui
     uri: https://twitter.com/litui
     icon: fa-twitter
-  - site: LinkedIn
-    user: Aria Burrell
-    uri: https://ca.linkedin.com/in/ariaburrell/
-    icon: fa-linkedin
+  - site: Keybase
+    user: aria
+    uri: https://keybase.io/aria
+    icon: fa-key
   - site: Github
     user: litui
     uri: https://github.com/litui
