@@ -1,7 +1,7 @@
 author: Aria Burrell
 accounts:
   - site: Twitter
-    user: @litui
+    user: "@litui"
     uri: https://twitter.com/litui
     icon: fa-twitter
   - site: Facebook
