@@ -4,7 +4,7 @@ email: litui@litui.net
 description: >
   A place where Aria's thoughts go when she is motivated to write.
 baseurl: ""
-url: "http://www.litui.net"
+url: "https://www.litui.net"
 twitter_username: litui
 github_username:  litui
 keep_files: ["robots.txt", "keybase.txt"]
@@ -15,4 +15,4 @@ paginate: 1
 # Build settings
 markdown: kramdown
 highlighter: pygments
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
