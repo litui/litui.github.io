@@ -2,6 +2,7 @@
 layout: post
 title: Git Subtree Merge Alternatives
 published: true
+author: aria
 tags:
 - git
 - merge

@@ -2,6 +2,7 @@
 layout: post
 title: A Tale of Two Disorders
 subtitle: At the behest of an anonymous 9th grade teacher
+author: aria
 published: true
 tags:
 - ⚧

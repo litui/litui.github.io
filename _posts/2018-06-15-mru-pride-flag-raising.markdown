@@ -2,10 +2,11 @@
 layout: post
 title: "Speech for the Pride Flag Raising Event at Mount Royal University in June 2018"
 author: aria
-categories: [Mount Royal University, Pride]
+categories: [speeches]
 tags:
   - pride flag
   - MRU
+  - LGBTQ2+
 image: assets/images/2018-06-15/mruprideflag.jpg
 ---
 Thank you to our Provost, Lesley Brown and to all the folks at MRU including our wonderful communications and marketing team who scrambled in short time to make this event happen. I’m glad the weather decided to hold off on raining for us this morning.

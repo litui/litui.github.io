@@ -2,6 +2,7 @@
 layout: post
 title: HRTiversary
 published: true
+author: aria
 tags:
 - ⚧
 - transgender

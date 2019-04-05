@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2018: The Year of Connection"
+author: aria
 published: true
 tags:
 - update

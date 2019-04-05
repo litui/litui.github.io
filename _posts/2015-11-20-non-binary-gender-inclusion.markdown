@@ -3,6 +3,7 @@ layout: post
 title: Non-binary gender inclusion in the workplace
 subtitle: "With recent progress made for trans men and women in law and society, we risk leaving non-binary trans individuals behind."
 published: true
+author: aria
 tags:
 - transgender
 - non-binary

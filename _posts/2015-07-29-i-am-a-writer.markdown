@@ -2,6 +2,7 @@
 layout: post
 title: I am a writer
 published: true
+author: aria
 tags:
 - writing
 - impostor syndrome

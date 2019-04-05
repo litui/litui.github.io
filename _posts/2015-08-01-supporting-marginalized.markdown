@@ -2,6 +2,7 @@
 layout: post
 title: Supporting Marginalized People as an Ally or Outsider
 published: true
+author: aria
 tags:
 - transgender
 - allyship

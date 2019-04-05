@@ -2,9 +2,10 @@
 layout: post
 title: "Father's Day Reflections"
 author: aria
-categories: [Leland Burrell]
+categories: [family and genealogy]
 tags:
-  - father's day
+  - Leland Burrell
+  - Carmen Lavino-Burrell
 image: assets/images/2018-06-17/lelandandcarmen.jpg
 subtitle: "Memories, disclosures, and thoughts on my relationship with a strange and estranged father."
 ---

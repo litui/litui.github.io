@@ -2,6 +2,7 @@
 layout: post
 title: ADHD Progress Continued
 published: true
+author: aria
 tags:
 - organization
 - ADD

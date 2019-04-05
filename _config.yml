@@ -2,7 +2,7 @@
 name: "Aria"
 title: "Litui"
 email: litui@litui.net
-description: "I'm fine, how are you?"
+description: "I'm fine, how are you? ... No, that's my name 🤦🏻‍♀️"
 logo: 'public/img/aria-small.jpg'
 favicon: 'assets/images/logo.png'
 baseurl: ""
@@ -25,7 +25,7 @@ authors:
     email: litui@litui.net
     web: https://www.litui.net
     twitter: https://twitter.com/litui
-    description: "Student of Policy and Gender at Mount Royal University. Genealogist. Non-compliant."
+    description: "Student of Policy and Gender at Mount Royal University. Genealogist. Non-compliant. https://digitaltipjar.com/litui"
 
 # Plugins
 plugins:

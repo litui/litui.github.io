@@ -2,6 +2,7 @@
 layout: post
 title: ADD and Me
 published: true
+author: aria
 tags:
 - organization
 - ADD
