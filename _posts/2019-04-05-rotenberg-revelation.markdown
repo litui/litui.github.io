@@ -6,6 +6,6 @@ tags:
 - genealogy
 - rothenberg
 type: post
-status: draft
+status: publish
 ---
 Test

@@ -7,7 +7,7 @@ tags:
 - ADD
 - ADHD
 - ADHD-PI
-type: post
+type: default
 status: publish
 ---
 In the past couple days I've made some important realizations about myself and my ability to be productive that I really wish I'd caught on to earlier in life.

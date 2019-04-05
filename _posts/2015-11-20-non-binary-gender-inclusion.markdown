@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Non-binary gender inclusion in the workplace
+subtitle: "With recent progress made for trans men and women in law and society, we risk leaving non-binary trans individuals behind."
 published: true
 tags:
 - transgender
@@ -9,6 +10,7 @@ tags:
 - workplace
 type: post
 status: publish
+image: assets/images/2015-11-20/nbflagtech.jpg
 ---
 
 *Originally published in [The Queerness](http://thequeerness.com/2015/11/01/non-binary-gender-inclusion-in-the-workplace/) on November 1, 2015.*

@@ -1,29 +1,59 @@
 ---
 layout: default
 ---
-{% for post in paginator.posts %}
-  {% include post.html %}
-{% endfor %}
 
-<!-- Pagination -->
-{% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="button previous">Newer</a>
-    {% endif %}
-    <div class="pages">
-      {% if paginator.page != 1 %}
-        <a href="{{ site.baseurl }}/index.html">1</a>
-      {% endif %}
-      {% if paginator.previous_page > 1 %}<span>&hellip;</span>{% endif %}
-      <a href="#" class="active">{{ paginator.page }}</a>
-      {% if paginator.next_page and paginator.next_page < paginator.total_pages | minus:1 %}<span>&hellip;</span>{% endif %}
-      {% if paginator.page != paginator.total_pages %}
-        <a href="{{ site.baseurl }}/page{{ paginator.total_pages }}">{{ paginator.total_pages }}</a>
-      {% endif %}
+{% if page.url == "/" %}
+
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Featured</span></h2>
     </div>
-    {% if paginator.next_page %}
-      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="button next">Older</a>
-    {% endif %}
-  </div>
+    <div class="row">
+
+    {% for post in site.posts %}
+
+        {% if post.featured == true %}
+
+            {% include featuredbox.html %}
+
+        {% endif %}
+
+    {% endfor %}
+
+    </div>
+</section>
+
 {% endif %}
+
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts">
+
+    <div class="section-title">
+
+        <h2><span>All Stories</span></h2>
+
+    </div>
+
+    <div class="row listrecent">
+
+        {% for post in paginator.posts %}
+
+        {% include postbox.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
+</div>

@@ -1,19 +1,72 @@
 # Site settings
-title: Litui
+name: "Aria"
+title: "Litui"
 email: litui@litui.net
-description: >
-  A place where Aria's thoughts go when she is motivated to write.
+description: "I'm fine, how are you?"
+logo: 'public/img/aria-small.jpg'
+favicon: 'assets/images/logo.png'
 baseurl: ""
 url: "https://www.litui.net"
 twitter_username: litui
 github_username:  litui
 keep_files: ["robots.txt", "keybase.txt"]
-exclude: ["punch", "CNAME"]
+include: ["_pages"]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, "punch", "CNAME"]
+permalink: /:title/
 timezone: "America/Edmonton"
 paginate: 1
 
+# Authors
+authors:
+  aria:
+    name: Aria Burrell
+    display_name: Aria Burrell
+    gravatar: 32310cb147a0c601280ba5cd36134ef5
+    email: litui@litui.net
+    web: https://www.litui.net
+    twitter: https://twitter.com/litui
+    description: "Student of Policy and Gender at Mount Royal University. Genealogist. Non-compliant."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+category: '/category/:name/'
+
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+
+# remote_theme: heiswayi/the-plain
+# remote_theme: wowthemesnet/mediumish-theme-jekyll
+
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+sass:
+    style: compressed
 highlighter: pygments
-plugins: [jekyll-paginate]
-remote_theme: codinfox/codinfox-lanyon
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
