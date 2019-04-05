@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Aria
+title: Aria Burrell
 permalink: /about
 comments: false
 ---
