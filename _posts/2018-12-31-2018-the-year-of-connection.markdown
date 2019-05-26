@@ -13,7 +13,11 @@ tags:
 - suicide
 type: post
 status: publish
+image: assets/images/2018-12-31/pedro-garcia-1561568-unsplash.jpg
+subtitle: "*Content warning: suicide ideation"
 ---
+> Photo by [Pedro Garcia](https://unsplash.com/@pggarcia) on [Unsplash](https://unsplash.com/)
+
 *Content warning: suicide ideation*
 
 Passion and Crisis

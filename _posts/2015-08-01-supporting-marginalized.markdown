@@ -9,7 +9,10 @@ tags:
 - writing
 type: post
 status: publish
+image: assets/images/2015-08-01/neil-thomas-329602-unsplash.jpg
+subtitle: Inspired by a troublesome attempt at allyship
 ---
+> Photo by [Neil Thomas](https://unsplash.com/@finleydesign) on [Unsplash](https://unsplash.com/@finleydesign)
 
 *Originally published on [Medium](https://medium.com/@litui/supporting-marginalized-people-as-an-ally-or-outsider-b6f82031005c)*
 

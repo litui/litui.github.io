@@ -18,7 +18,9 @@ image: assets/images/2015-11-20/nbflagtech.jpg
 
 ---
 
-*I am neither non-binary, nor an expert in Human Resources. I am a transgender woman who previously identified as genderqueer and socially transitioned over 9 months in 2013. As I was still discovering myself, not much was said to my employer throughout my transition until they inquired formally, though it was well-known in my social circles by then. My transition most visibly included changes to my gender expression which affected interactions with coworkers and management. I hesitate to speak on non-binary issues as I no longer identify as non-binary myself, but I know from experience that there is very little support available for non-binary employees in the workplace. I share my thoughts here in the hope that it will make a difference.*
+> ~~I am neither non-binary, nor an expert in Human Resources. I am a transgender woman who previously identified as genderqueer and socially transitioned over 9 months in 2013. As I was still discovering myself, not much was said to my employer throughout my transition until they inquired formally, though it was well-known in my social circles by then. My transition most visibly included changes to my gender expression which affected interactions with coworkers and management. I hesitate to speak on non-binary issues as I no longer identify as non-binary myself, but I know from experience that there is very little support available for non-binary employees in the workplace. I share my thoughts here in the hope that it will make a difference.~~
+
+> **2019 Edit**: Upon reflection, I never really stopped being non-binary. I was just trans-feminine and binary categories were more convenient.
 
 ---
 
