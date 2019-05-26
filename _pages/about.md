@@ -6,8 +6,8 @@ comments: false
 ---
 
 
-Mentions and Quotes in the Media
---------------------------------
+#### Mentions and Quotes in the Media
+* Rieger, Sarah. "[University's new AI security system that studies movement a 1st for Canada](https://www.cbc.ca/news/canada/calgary/mru-ai-security-1.5136407)," CBC News, May 15, 2019.
 * "[UCP Candidate Falsely Claimed Alberta Schools Let Adult Men Lurk in Girls' Washrooms](https://pressprogress.ca/ucp-candidate-falsely-claimed-alberta-schools-let-adult-men-lurk-in-girls-washrooms/)," PressProgress, March 26, 2019.
 * Nicholson, Alexandra. "[The Lens: Calgary women's march fills downtown streets](https://calgaryjournal.ca/news/4442-the-lens-calgary-women-s-march-fills-downtown-streets.html)," Calgary Journal, January 20, 2019.
 * Pike, Helen. "[Mount Royal University celebrates Indigenization process that will allow students to see reflection of selves in syllabus](https://www.thestar.com/calgary/2018/04/26/mount-royal-university-celebrates-indigenization-process-that-will-allow-students-to-see-reflection-of-selves-in-syllabus.html)," The Star: Calgary, April 26, 2018.
@@ -20,6 +20,5 @@ Mentions and Quotes in the Media
 * Wu, Brianna and Ellen McGrody. "[*Metroid*’s Samus Aran is a Transgender Woman. Deal With It.](https://www.themarysue.com/metroids-samus-aran-transgender-woman/)," The Mary Sue, September 1, 2015.
 * Goodyear, Sheena. "[Why *Bitch Planet* Is Inspiring Women to Get Badass Feminist Tattoos](https://www.themarysue.com/bitch-planet-tattoos/)," The Mary Sue, June 16, 2015.
 
-Publications
-------------
+#### Publications
 * Ehren, Aria. "[Trans Visibility: Who Is It Good for?](https://www.huffpost.com/entry/trans-visibility-who-is-i_b_10310268)," Huffington Post, June 9, 2016.
