@@ -60,7 +60,7 @@ kramdown:
       line_numbers: true
 sass:
     style: compressed
-highlighter: pygments
+highlighter: rouge
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
