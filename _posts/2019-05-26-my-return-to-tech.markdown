@@ -8,10 +8,10 @@ tags:
 - adhd
 - ambition
 - work
-image: assets/images/2019-05-26/glenn-carstens-peters-190592-unsplash.jpg
+image: assets/images/2019-05-26/marvin-meyer-571072-unsplash.jpg
 subtitle: I'm back, baby.
 ---
-> Photo by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters) on [Unsplash](https://unsplash.com)
+> Photo by [Marvin Meyer](https://unsplash.com/@marvelous) on [Unsplash](https://unsplash.com)
 
 Quippy title aside, it's true that I burned out severely back in 2015 and left tech to spend some time on advocacy for trans rights. A short time later, I returned to post-secondary to pursue a degree in Policy Studies. This would be my second time in university, the first time having been 12 years earlier in pursuit of a Linguistics degree. I did not complete that program. Back then, my failure to complete the program was more a result of ADHD than anything; untreated, my executive function demanded nothing short of complete passion for my work in order to remain able to keep pursuing it. Once the passion faded, I'd move on to other things. Being medicated for ADHD helped with that to a large extent, allowing me to work harder and longer on the projects in front of me, to participate in more hobbies at once, and to retain more interests over a longer span of time. While far from the only factor, this directly contributed to my burnout.
 
